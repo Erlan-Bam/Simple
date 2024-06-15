@@ -1,0 +1,25 @@
+@import "../../shared/styles/mixins";
+@import "../../shared/styles/variables";
+.searchBar {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-left: 24px;
+    width: 205px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.searchIcon {
+    margin-right: 3px;
+    color: #888;
+}
+
+.searchInput {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 0px 4px;
+}
+// @include respond-to('xs')

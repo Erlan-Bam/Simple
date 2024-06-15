@@ -1,0 +1,28 @@
+.sponsors{
+    background-color: #EBEBEB;
+    width: 100%;
+    padding: 90px 165px;
+    overflow: hidden;
+}
+.sponsors__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    width: fit-content;
+    animation: scroll 10s linear infinite;
+}
+.sponsors__container__img{
+    flex: 1;
+    min-width: 255px;
+    border: #C4C4C4;
+    transition: transform 0.5s;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

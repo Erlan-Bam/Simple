@@ -1,0 +1,15 @@
+@import "../../shared/styles/mixins";
+@import "../../shared/styles/variables";
+
+.logoutButton{
+    border: none;
+    font-size: 16px;
+    margin: 0px 20px;
+    background: none;
+    color: darkgray;
+}
+.logout__icon{
+    margin-right: 4px;
+}
+
+@include respond-to('xs')

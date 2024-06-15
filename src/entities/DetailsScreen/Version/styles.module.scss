@@ -1,0 +1,17 @@
+.version{
+    display: flex;
+    padding: 20px 0px;
+    border-top: 1px solid #C0C0C0;
+}
+.version:not(:last-child) {
+    margin-right: 30px;
+}
+.version__content{
+    margin: 18px 0px 0px 30px;
+}
+.version__content__id{
+    margin: 0px;
+}
+.version__content__text{
+    margin-top: 8px;
+}

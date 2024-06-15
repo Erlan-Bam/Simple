@@ -1,0 +1,16 @@
+@import "../../shared/styles/mixins";
+@import "../../shared/styles/variables";
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 1px black;
+    border-bottom: 2px solid #e4dddd;
+
+    .header__logo__link {
+        margin-top: 29px;
+        margin-left: 165px;
+    }
+}
+@include respond-to('xs')
