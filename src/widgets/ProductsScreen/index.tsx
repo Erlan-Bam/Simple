@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 
 function ProductsScreen(){
     return (
-        <div className={styles.products}>
+        <div className={styles.products} id="products">
             <div className={styles.products__container}>
                 {items.map(item => 
                 (

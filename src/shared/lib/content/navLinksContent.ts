@@ -2,19 +2,19 @@
 
 export const navLinks = [
     {
-        to: "/products",
+        to: "main",
         text: "Продукция"
     },
     {
-        to: "/meterials",
+        to: "details",
         text: "Материалы"
     },
     {
-        to: "/about-us",
+        to: "products",
         text: "О нас"
     },
     {
-        to: "/logout",
+        to: "sponsors",
         text: "Контакты"
     }
 ]

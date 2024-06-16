@@ -3,7 +3,7 @@ import main_image from '../../assets/main_img.png';
 import CatalogButton from "../../features/CatalogButton/CatalogButton";
 function MainScreen(){
     return (
-        <div className={styles.main}>
+        <div className={styles.main} id="main">
             <div className={styles.main__content}>
                 <h1 className={styles.main__heading}>
                     Простые вещи. <br /> Из бумаги

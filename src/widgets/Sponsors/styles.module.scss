@@ -1,26 +1,30 @@
-.sponsors{
+.sponsors {
     background-color: #EBEBEB;
     width: 100%;
-    padding: 90px 165px;
+    padding: 90px 0;
     overflow: hidden;
+    position: relative;
 }
-.sponsors__container{
+
+.sponsors__container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 30px;
-    width: fit-content;
-    animation: scroll 10s linear infinite;
+    width: fit-content; /* Ensure container width is wide enough */
+    animation: scroll 40s linear infinite;
 }
-.sponsors__container__img{
-    flex: 1;
+
+.sponsors__container__img {
+    flex: 0 0 auto; /* Prevent images from shrinking */
     min-width: 255px;
-    border: #C4C4C4;
+    margin: 0px 10px;
+    border: 1px solid #C4C4C4;
     transition: transform 0.5s;
 }
+
 @keyframes scroll {
     0% {
-        transform: translateX(100%);
+        transform: translateX(60%);
     }
     100% {
         transform: translateX(-100%);
