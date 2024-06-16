@@ -7,10 +7,59 @@
     justify-content: space-between;
     box-shadow: 1px black;
     border-bottom: 2px solid #e4dddd;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
 
     .header__logo__link {
         margin-top: 29px;
         margin-left: 165px;
+    }
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #4C5866;
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        margin: 29px 165px;
+    
+        &__logo__link {
+            img {
+                width: 24px;
+            }
+        }
+    
+        &__socials {
+            display: flex;
+            gap: 30px;
+            margin-top: 1px;
+        
+            a {
+                color: #fff;
+                transition: color 0.3s;
+        
+                &:hover {
+                    color: #ddd;
+                }
+            }
+        }
+    }
+    &__bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+
+        &__text {
+            margin-top: 3px;
+        }
     }
 }
 @include respond-to('xs')

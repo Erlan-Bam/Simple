@@ -5,6 +5,8 @@ import '../../shared/styles/global.scss'
 import Details from "../../widgets/DetailsScreen/details";
 import Main from "../../widgets/MainScreen/main";
 import Sponsors from "@widgets/Sponsors";
+import Filler from "@widgets/FillerScreen";
+import Footer from "@shared/components/Footer";
 
 function HomePage() {
     return (
@@ -14,6 +16,8 @@ function HomePage() {
             <Details />
             <Products />
             <Sponsors />
+            <Filler />
+            <Footer />
         </>
     )
 }

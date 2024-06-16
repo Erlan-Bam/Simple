@@ -1,0 +1,24 @@
+.filler{
+    display: flex;
+    width: 100%;
+}
+.filler__content{
+    margin: 114px 165px 0px 165px;
+    display: flex;
+    flex-direction: column;
+
+    .filler__content__heading{
+        position: absolute;
+        font-weight: 400;
+        font-size: 40px;
+        color: #666666;
+    }
+    .filler__content__paragraph{
+        color: #85859B;
+        margin-top: 54px;
+    }
+}
+.filler__img{
+    margin: 90px 165px 0px 30px;
+    flex: 1;
+}
